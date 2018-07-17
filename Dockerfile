@@ -64,7 +64,7 @@ VOLUME ["/opt/grobid/grobid-home/tmp"]
 
 WORKDIR /opt/grobid
 
-ENV JAVA_OPTS=-Xmx4g
+ENV JAVA_OPTS=-Xmx10g
 
 # Add Tini
 ENV TINI_VERSION v0.18.0
